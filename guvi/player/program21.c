@@ -3,7 +3,7 @@ int main(void)
 {
   int a,b,c,d,e,f;
   scanf("%d %d\n%d %d \n%d %d",&a,&b,&c,&d,&e,&f);
-  if((a==e && e==c)||(b==d && d==f))
+  if((a==e && e==c)||(b==d && d==f)||(a==b && c==d && e==f))
   {
     printf("yes");
   }
